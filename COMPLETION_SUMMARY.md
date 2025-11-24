@@ -159,21 +159,21 @@ Created four major documentation files:
                           │
                           │ WebSocket/HTTP
                           ▼
-┌─────────────────────────────────────────────────────────────┐
-│                      Backend Server                          │
+┌────────────────────────────────────────────────────────────┐
+│                      Backend Server                        │
 │  ┌──────────────────────────────────────────────────────┐  │
-│  │  Express.js + WebSocket Server                        │  │
-│  │  - Authentication (JWT)                               │  │
-│  │  - AI Command Processing (Gemini)                     │  │
-│  │  - Room Management                                    │  │
-│  │  - Machine Registry                                   │  │
+│  │  Express.js + WebSocket Server                       │  │
+│  │  - Authentication (JWT)                              │  │
+│  │  - AI Command Processing (Gemini)                    │  │
+│  │  - Room Management                                   │  │
+│  │  - Machine Registry                                  │  │
 │  └──────────────────────────────────────────────────────┘  │
 │  ┌──────────────────────────────────────────────────────┐  │
-│  │  MongoDB Database                                     │  │
+│  │  MongoDB Database                                    │  │
 │  │  - Users, Projects, Commands                         │  │
-│  │  - Scripts, Plugins                                   │  │
+│  │  - Scripts, Plugins                                  │  │
 │  └──────────────────────────────────────────────────────┘  │
-└─────────────────────────────────────────────────────────────┘
+└────────────────────────────────────────────────────────────┘
                           │
                           │ WebSocket
                           ▼

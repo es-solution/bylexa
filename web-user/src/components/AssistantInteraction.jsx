@@ -96,7 +96,7 @@ const AssistantInteraction = () => {
     };
 
     return (
-        <div className="bg-[#0b0f1a] bg-radial-gradient from-[rgba(0,229,255,0.1)] to-transparent min-h-screen text-white p-8">
+        <div className="bg-[#0b0f1a] bg-radial-gradient from-[rgba(0,229,255,0.1)] to-transparent min-h-screen text-white px-8 pt-80">
             <div className="max-w-2xl mx-auto bg-[rgba(13,17,29,0.8)] p-8 rounded-2xl shadow-[0_0_20px_rgba(0,229,255,0.4)]">
                 <h1 className="text-4xl text-[#00e5ff] text-center mb-8 font-bold">Voice Assistant</h1>
 
