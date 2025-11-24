@@ -23,7 +23,7 @@ const RegisterScreen = () => {
   return (
     <View style={styles.container}>
       <View style={styles.registerBox}>
-        <Text style={styles.title}>Register{"\n"}Shravan</Text>
+        <Text style={styles.title}>Register{"\n"}Bylexa</Text>
         <TextInput 
           placeholder="Email" 
           value={email} 

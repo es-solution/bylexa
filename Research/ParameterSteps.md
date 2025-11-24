@@ -10,7 +10,7 @@ Modify `interpretCommand` to only return the command name without attempting to 
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 
 const genAI = new GoogleGenerativeAI(process.env.API_KEY_12607);
-const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 
 exports.interpretCommand = async (command, availableCommands) => {
   const prompt = `Interpret the following command for an IoT device: "${command}". 

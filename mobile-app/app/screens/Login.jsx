@@ -24,7 +24,7 @@ const LoginScreen = () => {
   return (
     <View style={styles.container}>
       <View style={styles.loginBox}>
-        <Text style={styles.title}>Log In{"\n"}Shravan</Text>
+        <Text style={styles.title}>Log In{"\n"}Bylexa</Text>
         <TextInput 
           placeholder="Email" 
           value={email} 

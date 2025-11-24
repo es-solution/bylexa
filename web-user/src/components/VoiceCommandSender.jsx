@@ -95,7 +95,7 @@ const VoiceCommandSender = () => {
 
   return (
     <div className="min-h-screen bg-gray-900 flex flex-col items-center justify-center text-white font-sans p-6">
-      <h1 className="text-4xl font-bold mb-6 text-center text-cyan-300">Shravan Voice Command Interface</h1>
+      <h1 className="text-4xl font-bold mb-6 text-center text-cyan-300">Bylexa Voice Command Interface</h1>
       <h2 className="text-xl font-bold mb-6 text-center text-cyan-300">You are logged in!</h2>
 
       <div className="flex flex-col items-center gap-4 w-full max-w-xl">
@@ -121,7 +121,7 @@ const VoiceCommandSender = () => {
 
           {developerMode && ( // Conditionally render based on developer mode
             <>
-              <h2 className="text-2xl font-semibold text-cyan-300 mb-4">Shravan:</h2>
+              <h2 className="text-2xl font-semibold text-cyan-300 mb-4">Bylexa:</h2>
               <p className="text-gray-300 whitespace-pre-wrap">
                 {osResponse && JSON.stringify(osResponse, null, 2)}
               </p>

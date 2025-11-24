@@ -2,7 +2,7 @@ const WebSocket = require('ws');
 const jwt = require('jsonwebtoken');
 
 // Secret key used to decode the JWT token
-const JWT_SECRET = 'bylexa';
+const JWT_SECRET = process.env.API_KEY_JWT;
 
 // Store connected clients by email
 const clients = {};

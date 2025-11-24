@@ -138,7 +138,7 @@ const OsCommandScreen = () => {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Shravan&apos;s {"\n"}Voice Command Interface</Text>
+            <Text style={styles.title}>Bylexa&apos;s {"\n"}Voice Command Interface</Text>
             <Text style={styles.subtitle}>{}</Text>
 
             <TouchableOpacity

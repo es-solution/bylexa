@@ -1,4 +1,4 @@
-Metadata-Version: 2.1
+Metadata-Version: 2.4
 Name: bylexa
 Version: 1.2.1
 Summary: Control your PC using Bylexa voice commands.
@@ -40,3 +40,12 @@ Requires-Dist: webdriver-manager==4.0.2
 Requires-Dist: websocket-client==1.8.0
 Requires-Dist: websockets==13.1
 Requires-Dist: wsproto==1.2.0
+Requires-Dist: nltk==3.9.2
+Requires-Dist: spacy==3.8.11
+Dynamic: author
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

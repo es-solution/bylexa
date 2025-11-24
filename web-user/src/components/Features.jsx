@@ -31,7 +31,7 @@ const features = [
   },
   {
     title: 'Assistant',
-    description: 'Interact with the shravan assistant.',
+    description: 'Interact with the Bylexa assistant.',
     icon: FaRobot,
     link: '/assistant',
   },

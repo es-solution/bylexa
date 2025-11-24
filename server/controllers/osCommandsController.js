@@ -3,7 +3,7 @@ const { spawn } = require('child_process');
 const { sendCommandToAgent } = require('../config/websocket');
 const config = require('../config');
 const genAI = new GoogleGenerativeAI(process.env.API_KEY_12607);
-const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 const jwt = require('jsonwebtoken');
 // const {interpretCommand} = require('../services/ollamaService')
 

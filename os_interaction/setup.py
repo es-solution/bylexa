@@ -37,7 +37,9 @@ setup(
         "webdriver-manager==4.0.2",
         "websocket-client==1.8.0",
         "websockets==13.1",
-        "wsproto==1.2.0"
+        "wsproto==1.2.0",
+        "nltk==3.9.2",
+        "spacy==3.8.11"
     ],
     entry_points={
         'console_scripts': [

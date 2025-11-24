@@ -27,7 +27,7 @@ export default function Footer() {
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">
               <Linkedin className="h-5 w-5" />
             </a>
-            <a href="https://github.com/exploring-solver/shravan" target="_blank" rel="noopener noreferrer" className="hover:text-white">
+            <a href="https://github.com/exploring-solver/Bylexa" target="_blank" rel="noopener noreferrer" className="hover:text-white">
               <Github className="h-5 w-5" />
             </a>
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">

@@ -15,11 +15,12 @@ bylexa/constants.py
 bylexa/dialog_manager.py
 bylexa/intent_parser.py
 bylexa/main.py
+bylexa/my_token.py
 bylexa/new_cli.py
 bylexa/plugin_dev_kit.py
+bylexa/plugin_validator.py
 bylexa/script_manager.py
 bylexa/script_sandbox.py
-bylexa/token.py
 bylexa/websocket_client.py
 bylexa/websocket_gateway.py
 bylexa.egg-info/PKG-INFO
